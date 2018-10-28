@@ -18,7 +18,7 @@ public class RegistrationController extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
-		String name = request.getParameter("name");
+		String name = request.getParameter("fullname");
 		String Addr = request.getParameter("address");
 		String age = request.getParameter("age");
 		String Qual = request.getParameter("qual");
